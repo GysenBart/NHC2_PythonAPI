@@ -1,0 +1,4057 @@
+{
+    "Params": [
+        {
+            "Devices": [
+                {
+                    "Uuid": "e0a11845-6086-4a61-81db-8521969ff44f",
+                    "Identifier": "f5a89a2b-cb4d-4c39-ae40-ecc6aa7fea13",
+                    "Model": "naso",
+                    "Online": "True",
+                    "Name": "Sfeerlicht zetel",
+                    "Technology": "zigbee",
+                    "Type": "smartplug",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "110A-FC08-01-086BD7FFFEEE2B3B"
+                        },
+                        {
+                            "ProductId": "170-33505"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "SwitchingOnly": "False"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "MeasuringOnly": "False"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ElectricalPowerThreshold3": "0"
+                        },
+                        {
+                            "FeedbackEnabled": "False"
+                        },
+                        {
+                            "ElectricalPowerThreshold2": "0"
+                        },
+                        {
+                            "MeasuredApplianceType": ""
+                        },
+                        {
+                            "ElectricalPowerThreshold1": "0"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "On"
+                        },
+                        {
+                            "ElectricalPower": "0.000"
+                        },
+                        {
+                            "ReportInstantUsage": "False"
+                        },
+                        {
+                            "ElectricalEnergy": ""
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        },
+                        {
+                            "ElectricalPower": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,3680.000,0.001)"
+                            }
+                        },
+                        {
+                            "ReportInstantUsage": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "ElectricalEnergy": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(-5461.000,5461.000,0.001)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "b4179223-5f1b-4245-8a65-92737d074521",
+                    "Identifier": "brick",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "zigbee brick",
+                    "Technology": "zigbee",
+                    "Type": "brick",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "51735f47-68f0-4590-9ccf-20748b7655b9",
+                    "Identifier": "3eab32e3-5a39-4f5d-836e-fda8da705414",
+                    "Model": "extensionbuttonx1",
+                    "Online": "True",
+                    "Name": "keuken",
+                    "Technology": "easywave",
+                    "Type": "smartextensionpanel",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00032d6b"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "62567b37-073b-4dbc-a6e0-9abbdd9e38f4",
+                    "Identifier": "radio",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "easywave radio",
+                    "Technology": "easywave",
+                    "Type": "radio",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "c97a657a-44fc-469f-8756-2b41d6272506",
+                    "Identifier": "79ac1f9f-2c8a-4121-9bbf-518f7208028d",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Rolluiken verdieping openen weekdagen",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "2aceca13-8256-4943-b3b3-47dcccd42f45",
+                    "Identifier": "3e3367a4-7e4f-4dd5-8950-dc0166d31958",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "inkomhal aan/uit Ring",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "2ce94377-c0ac-4719-97f3-2666ef8d147b",
+                    "Identifier": "cb01bca3-da44-4207-ab6f-914b72e8aaac",
+                    "Model": "timeschedule",
+                    "Online": "True",
+                    "Name": "Tijdschema rolluik avond",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [
+                        {
+                            "Active": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Active": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "39b35c63-0559-4395-bad8-682dac15ddc8",
+                    "Identifier": "7efbea14-74f6-47fd-84e1-0d69148ad65b",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "master bedroom",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "lamp2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "65928754-e6c6-4bd1-ab0e-14855b523b7c",
+                    "Identifier": "221d9899-c4fd-4be8-bcb5-14a3a126417e",
+                    "Model": "dimcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "eetkamer",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00032ade"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "ef5fe0d2-9a8a-484d-8f29-1e68449db691",
+                    "Identifier": "e48252c4-8ea1-445d-ba9b-6317be519cef",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "eetkamer",
+                    "Technology": "easywave",
+                    "Type": "smartdimmer",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00032ade"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "Memory": "true"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "02bc230d-6d66-4529-83f6-7aa53dbb0ec8",
+                    "Identifier": "b73d2dec-a164-4986-bbca-5f730094166b",
+                    "Model": "switched-generic",
+                    "Online": "True",
+                    "Name": "AC-Mode Masterbedroom (auto sluiten UIT)",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "standby"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "4ec81041-eb3c-4668-b12e-08b872f5d240",
+                    "Identifier": "RINCON_48A6B8F148E601400",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "Woonkamer",
+                    "Technology": "sonos",
+                    "Type": "audiocontrol",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "Favourite14": "VRT Radio 2 Antwerpen"
+                        },
+                        {
+                            "Favourite49": ""
+                        },
+                        {
+                            "Favourite26": ""
+                        },
+                        {
+                            "Favourite61": ""
+                        },
+                        {
+                            "Favourite03": "Lounge (Bar & Café)"
+                        },
+                        {
+                            "Favourite38": ""
+                        },
+                        {
+                            "Favourite50": ""
+                        },
+                        {
+                            "Favourite15": "VRT Studio Brussel"
+                        },
+                        {
+                            "Favourite27": ""
+                        },
+                        {
+                            "Favourite62": ""
+                        },
+                        {
+                            "Favourite04": "Lounge-Radio.com"
+                        },
+                        {
+                            "Favourite39": ""
+                        },
+                        {
+                            "Favourite51": ""
+                        },
+                        {
+                            "Favourite16": ""
+                        },
+                        {
+                            "Favourite28": ""
+                        },
+                        {
+                            "Favourite63": ""
+                        },
+                        {
+                            "Favourite40": ""
+                        },
+                        {
+                            "Favourite05": "Music for a Workday"
+                        },
+                        {
+                            "GroupId": "RINCON_48A6B8F148E601400:2448366438"
+                        },
+                        {
+                            "Favourite17": ""
+                        },
+                        {
+                            "Favourite52": ""
+                        },
+                        {
+                            "SoftwareVersion": "80.1-55240"
+                        },
+                        {
+                            "Favourite29": ""
+                        },
+                        {
+                            "Favourite64": ""
+                        },
+                        {
+                            "Favourite06": "Muziek Evi"
+                        },
+                        {
+                            "Favourite41": ""
+                        },
+                        {
+                            "Favourite53": ""
+                        },
+                        {
+                            "Favourite18": ""
+                        },
+                        {
+                            "Favourite30": ""
+                        },
+                        {
+                            "Favourite65": ""
+                        },
+                        {
+                            "GroupCoordinator": "true"
+                        },
+                        {
+                            "GroupName": "Woonkamer + 1"
+                        },
+                        {
+                            "Favourite07": "Q"
+                        },
+                        {
+                            "Favourite42": ""
+                        },
+                        {
+                            "Favourite19": ""
+                        },
+                        {
+                            "Favourite54": ""
+                        },
+                        {
+                            "Favourite31": ""
+                        },
+                        {
+                            "Favourite66": ""
+                        },
+                        {
+                            "Favourite08": "Q-Foute Radio"
+                        },
+                        {
+                            "Favourite43": ""
+                        },
+                        {
+                            "Favourite20": ""
+                        },
+                        {
+                            "Favourite55": ""
+                        },
+                        {
+                            "Favourite32": ""
+                        },
+                        {
+                            "Favourite67": ""
+                        },
+                        {
+                            "Favourite09": "Q-music"
+                        },
+                        {
+                            "Favourite44": ""
+                        },
+                        {
+                            "Favourite21": ""
+                        },
+                        {
+                            "Favourite56": ""
+                        },
+                        {
+                            "Favourite33": ""
+                        },
+                        {
+                            "Favourite68": ""
+                        },
+                        {
+                            "Favourite10": "Soul, Jazz and Blues"
+                        },
+                        {
+                            "Favourite45": ""
+                        },
+                        {
+                            "Favourite22": ""
+                        },
+                        {
+                            "Favourite57": ""
+                        },
+                        {
+                            "Favourite34": ""
+                        },
+                        {
+                            "Favourite69": ""
+                        },
+                        {
+                            "Favourite11": "Top Radio"
+                        },
+                        {
+                            "Favourite46": ""
+                        },
+                        {
+                            "Favourite23": ""
+                        },
+                        {
+                            "Favourite58": ""
+                        },
+                        {
+                            "Favourite00": "Burglar Alarm Horn Siren"
+                        },
+                        {
+                            "Favourite35": ""
+                        },
+                        {
+                            "ApiVersion": "1.41.2"
+                        },
+                        {
+                            "Favourite12": "VRT MNM"
+                        },
+                        {
+                            "Favourite47": ""
+                        },
+                        {
+                            "Favourite24": ""
+                        },
+                        {
+                            "Favourite59": ""
+                        },
+                        {
+                            "Favourite01": "Ibiza Lounge Music | Deep House & Summer Chillout Vibes 2021"
+                        },
+                        {
+                            "Favourite36": ""
+                        },
+                        {
+                            "Favourite13": "VRT Radio 1"
+                        },
+                        {
+                            "Favourite48": ""
+                        },
+                        {
+                            "Favourite60": ""
+                        },
+                        {
+                            "Favourite25": ""
+                        },
+                        {
+                            "Favourite02": "Jazz Lounge Bar Playlist"
+                        },
+                        {
+                            "Favourite37": ""
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "3f815d6b-5bff-4d38-bb3b-11b3170d3d20",
+                    "Identifier": "f0cd5d01-dd83-4c79-af37-b450dab09448",
+                    "Model": "pushbuttonx2feedback",
+                    "Online": "True",
+                    "Name": "Knop master bedroom",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00021653"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        },
+                        {
+                            "LongPressTime02": "1000"
+                        },
+                        {
+                            "ButtonMode02": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "6b16732c-67ec-43a0-9233-786a965d524b",
+                    "Identifier": "e78b207f-7199-4936-97e2-dc664227d476",
+                    "Model": "dimcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "living",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00031e52"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "3d79985f-35e6-43bb-b563-28f618cb6131",
+                    "Identifier": "9d12e249-49a3-4c8e-9adb-dddec993e2e3",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "gang",
+                    "Technology": "easywave",
+                    "Type": "smartrelay",
+                    "Traits": [
+                        {
+                            "Channel": "1"
+                        },
+                        {
+                            "MacAddress": "000219ac"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "cfd0964a-196b-427d-9a40-47fa59e16766",
+                    "Identifier": "592c12d6-2134-4bfb-a3dc-67a39211ce37",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "rolluik rens",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "shutter2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "LastDirection": "Close"
+                        },
+                        {
+                            "Position": "0"
+                        },
+                        {
+                            "Moving": "False"
+                        },
+                        {
+                            "Action": "Close"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "LastDirection": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Choice(Open,Close)"
+                            }
+                        },
+                        {
+                            "Position": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        },
+                        {
+                            "Moving": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Action": {
+                                "HasStatus": "false",
+                                "CanControl": "true",
+                                "Description": "Choice(Open,Close,Stop)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "4644d8b3-b77d-40d1-98ca-5ec2a30f8c82",
+                    "Identifier": "52e48b48-fda2-4348-99f9-4922505f64c4",
+                    "Model": "comfort",
+                    "Online": "True",
+                    "Name": "Sfeer 1",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [
+                        {
+                            "SuggestionId": ""
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "mood"
+                        },
+                        {
+                            "MoodIcon": "-1"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "MoodActive": "False"
+                        },
+                        {
+                            "AllStarted": "False"
+                        },
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "MoodActive": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "AllStarted": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "bc876c90-ef4a-4204-9825-26d7076bd1e3",
+                    "Identifier": "be418835-38be-4196-ac8a-b35c3fc4c25b",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "inkomhal",
+                    "Technology": "easywave",
+                    "Type": "smartdimmer",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00032471"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "Memory": "true"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "dc50b94f-2389-49fe-985a-b81aa80339cf",
+                    "Identifier": "6f6de98c-44f9-45d9-a900-5e8b872f8eb0",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "living",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "dimmable-lamp"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "Status": "On"
+                        },
+                        {
+                            "Brightness": "1"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        },
+                        {
+                            "Brightness": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "d776e15b-d1a6-40e5-bd6c-2e8d2a7e7ee9",
+                    "Identifier": "7a42b39b-8f91-4783-9f2a-9dbf59682b0c",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "Rolluik master bedroom",
+                    "Technology": "easywave",
+                    "Type": "smartmotor",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00041a5a"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "OpenRunTime": "20"
+                        },
+                        {
+                            "CloseRunTime": "20"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "c008a82e-84aa-4e10-90da-b2ef7df5ca9d",
+                    "Identifier": "d1067a0e-51f9-452c-aae8-4e64971b1016",
+                    "Model": "simulation",
+                    "Online": "True",
+                    "Name": "Vakantie",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "mood-simulation"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "9a10c12f-6d1b-4f82-8486-c3895287d562",
+                    "Identifier": "95adc556-e78e-4571-a67a-1b5fd34d6605",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "badkamer",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "lamp2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "1c175213-ebe1-400e-9cc7-b0812b935de3",
+                    "Identifier": "7616b643-1a0b-45df-b3e3-e51266068a3a",
+                    "Model": "timeschedule",
+                    "Online": "True",
+                    "Name": "Tijdschema alle rolluiken s'morgens weekdagen",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [
+                        {
+                            "Active": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Active": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "debb897a-122f-4dbb-b562-e67c687dc911",
+                    "Identifier": "66f443bd-f0d2-44d9-b3e5-6bef36abbd0c",
+                    "Model": "socket",
+                    "Online": "True",
+                    "Name": "Sfeerlicht zetel",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "socket"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "99574a51-76fa-486e-8462-0d00e26ea460",
+                    "Identifier": "0b1e8271-91e1-47bb-a68b-ed8bbf8acfd2",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Rolluik sluiten (Masterbedroom)",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "b0135d61-0b9d-428f-a25d-0decda6131c9",
+                    "Identifier": "0b43af91-1f9c-4723-9957-c8a69416fd0a",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "keuken",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "dimmable-lamp"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "Status": "On"
+                        },
+                        {
+                            "Brightness": "31"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        },
+                        {
+                            "Brightness": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "ecbe48b5-d57f-4294-a8f7-8d03f43155fd",
+                    "Identifier": "cba33816-ec9f-4d9c-a373-b6a88d55ea1a",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "Living",
+                    "Technology": "easywave",
+                    "Type": "smartdimmer",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00031e52"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "Memory": "true"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "22d2d875-adbe-4eae-b81e-272c61dbc732",
+                    "Identifier": "06893ef1-3efd-496a-b551-a19e3339c4f7",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "Spots wc",
+                    "Technology": "easywave",
+                    "Type": "smartrelay",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "000219ac"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "0d95fdc4-3915-442d-ba96-4334b182f45d",
+                    "Identifier": "84d9c3b1-ee07-46d0-a26c-c2e7808eeda6",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "Rolluiken dicht",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "StartText": "Ingeschakeld"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "StopText": "Uitgeschakeld"
+                        },
+                        {
+                            "IconCode": "triple-dot"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "StartActive": "False"
+                        },
+                        {
+                            "AllStarted": "False"
+                        },
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "StartActive": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "AllStarted": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "c40dfe23-d228-461e-a26b-6263fe9450ff",
+                    "Identifier": "2b4eb889-73e0-43cb-aeb2-d8dac4919a13",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "spots wc",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "lamp2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "f506b409-4fb4-49de-9418-96165b7a4cdf",
+                    "Identifier": "733d5db5-ff30-441a-89cd-54413a7f2989",
+                    "Model": "extensionbuttonx1",
+                    "Online": "True",
+                    "Name": "inkomhal",
+                    "Technology": "easywave",
+                    "Type": "smartextensionpanel",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00032471"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "fd867805-b0f4-448a-b024-b6a8fb0332f2",
+                    "Identifier": "8c0e9aef-fbf2-4fce-9742-4fcc1b7e99f8",
+                    "Model": "dimcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "Dimmer keuken",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00032d6b"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "30a726f5-b357-46fb-aded-eb4d1ab8c35e",
+                    "Identifier": "1SAG1100725615",
+                    "Model": "nhc",
+                    "Online": "True",
+                    "Name": "electricitymeter",
+                    "Technology": "p1",
+                    "Type": "electricitymeter",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "Segment": "Central"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "ElectricalPowerConsumption": ""
+                        },
+                        {
+                            "ElectricalPowerConsumptionMonthlyPeak": ""
+                        },
+                        {
+                            "ElectricalEnergyConsumptionTariff2": ""
+                        },
+                        {
+                            "ElectricalEnergyProductionTariff2": ""
+                        },
+                        {
+                            "ElectricalEnergyConsumptionTariff1": ""
+                        },
+                        {
+                            "ElectricalPowerProduction": ""
+                        },
+                        {
+                            "ElectricalPowerConsumptionL3": ""
+                        },
+                        {
+                            "ElectricalPowerConsumptionL2": ""
+                        },
+                        {
+                            "ElectricalPowerConsumptionL1": ""
+                        },
+                        {
+                            "ElectricalEnergyProductionTariff1": ""
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "ElectricalPowerConsumption": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerConsumptionMonthlyPeak": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyConsumptionTariff2": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyProductionTariff2": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyConsumptionTariff1": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerProduction": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerConsumptionL3": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerConsumptionL2": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerConsumptionL1": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyProductionTariff1": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00,999999999.00,1.00)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "28eaa8f3-eac1-4500-9655-226e6bbeac82",
+                    "Identifier": "53a71b75-944e-4a63-8dd1-2fa987e5a118",
+                    "Model": "pushbuttonx2feedback",
+                    "Online": "True",
+                    "Name": "Knop gang wc",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "000219ac"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        },
+                        {
+                            "LongPressTime02": "1000"
+                        },
+                        {
+                            "ButtonMode02": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "03d6f870-8376-40c5-83cb-2224775004fa",
+                    "Identifier": "4b9fa495-2f34-420d-8a90-3fc8af72d5eb",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "slaapkamer midden",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "shutter2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "LastDirection": "Close"
+                        },
+                        {
+                            "Position": "0"
+                        },
+                        {
+                            "Moving": "False"
+                        },
+                        {
+                            "Action": "Close"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "LastDirection": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Choice(Open,Close)"
+                            }
+                        },
+                        {
+                            "Position": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        },
+                        {
+                            "Moving": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Action": {
+                                "HasStatus": "false",
+                                "CanControl": "true",
+                                "Description": "Choice(Open,Close,Stop)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "06456a4c-ecf7-4097-ad11-b501d63834bb",
+                    "Identifier": "stick",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "p1meter stick",
+                    "Technology": "p1meter",
+                    "Type": "stick",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "2154143b-8f61-4d00-a004-5e6bcdd8724d",
+                    "Identifier": "871951b5-ee57-43a4-b193-0831ce4ac164",
+                    "Model": "dimcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "inkomhal",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00032471"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "e08bd0bb-d67c-4568-9976-299d53e67652",
+                    "Identifier": "fed2a892-f486-467a-85d2-a0875fbbc5ea",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "Rolluik master bedroom",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "shutter2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "LastDirection": "Close"
+                        },
+                        {
+                            "Position": "37"
+                        },
+                        {
+                            "Moving": "False"
+                        },
+                        {
+                            "Action": "Stop"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "LastDirection": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Choice(Open,Close)"
+                            }
+                        },
+                        {
+                            "Position": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        },
+                        {
+                            "Moving": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Action": {
+                                "HasStatus": "false",
+                                "CanControl": "true",
+                                "Description": "Choice(Open,Close,Stop)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "adb9f46c-3903-45c9-9d02-7e5dde5ad790",
+                    "Identifier": "ed32477a-97fe-4613-81a4-edc22943be5b",
+                    "Model": "flag",
+                    "Online": "True",
+                    "Name": "Rolluiken auto uit",
+                    "Technology": "nikohomecontrol",
+                    "Type": "virtual",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "True"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "fc839628-46ee-4c02-ad4b-7418454da7a8",
+                    "Identifier": "fea84246-98dc-4278-b5f6-d909ce48ae7a",
+                    "Model": "extensionbuttonx1",
+                    "Online": "True",
+                    "Name": "knoppen bed",
+                    "Technology": "easywave",
+                    "Type": "smartextensionpanel",
+                    "Traits": [
+                        {
+                            "Channel": "1"
+                        },
+                        {
+                            "MacAddress": "00021653"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "f0d89b95-3e29-4631-95f9-594cf0cd4766",
+                    "Identifier": "cf28d512-ebf0-49ed-aa4d-528540cc6f0d",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "Rolluik rens",
+                    "Technology": "easywave",
+                    "Type": "smartmotor",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00041868"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "OpenRunTime": "25"
+                        },
+                        {
+                            "CloseRunTime": "25"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "69f61e46-aafd-4544-bf83-c6a700ecf4ef",
+                    "Identifier": "bc192b31-4226-4a2b-bd62-debee5ba76c7",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "inkomhal",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "dimmable-lamp"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "Status": "Off"
+                        },
+                        {
+                            "Brightness": "60"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        },
+                        {
+                            "Brightness": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "4942e33d-671e-4bf3-b337-d7cfe265eaca",
+                    "Identifier": "8f312d13-3fff-486b-a5a4-b2dd511ec17e",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Rolluiken gelijkvloers openen weekdagen",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "ad7322ee-9cb7-445a-baee-ea5a25d28f09",
+                    "Identifier": "529b188c-5cc4-499d-b91c-7c2343857ff4",
+                    "Model": "flag",
+                    "Online": "True",
+                    "Name": "Virtueel toestel Thuis",
+                    "Technology": "nikohomecontrol",
+                    "Type": "virtual",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "18ad2af2-bcd3-48b1-847a-25d70e083e86",
+                    "Identifier": "3612a34e-31a4-4816-a646-d21d50d7de26",
+                    "Model": "alloff",
+                    "Online": "True",
+                    "Name": "Huis verlaten",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "IconCode": "mood-simulation"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "AllOffActive": "False"
+                        },
+                        {
+                            "AllStarted": "False"
+                        },
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "AllOffActive": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "AllStarted": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "0521d470-52d9-40d7-8270-87549bc09af8",
+                    "Identifier": "98149fb3-725b-4851-b8c8-1ab969e10a56",
+                    "Model": "motorcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "Rolluikbediening master bedroom",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00041a5a"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        },
+                        {
+                            "LongPressTime02": "400"
+                        },
+                        {
+                            "ButtonMode02": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "053f735b-9fe3-4d88-9270-2985355565f6",
+                    "Identifier": "71fa1e72-ffd9-461e-9f36-8f6392c1c940",
+                    "Model": "timeschedule",
+                    "Online": "True",
+                    "Name": "Tijdschema rolluik gelijkvloers s'morgens weekend",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [
+                        {
+                            "Active": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Active": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "30399104-3697-49f5-87a4-a58d0eb5083a",
+                    "Identifier": "71bfc344-cf12-4e97-b8bf-94589398dc7f",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "badkamer",
+                    "Technology": "easywave",
+                    "Type": "smartrelay",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "0001141e"
+                        },
+                        {
+                            "ProductId": "551-72101"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "8d319f05-d854-4c0e-9549-efcee6606b6b",
+                    "Identifier": "c80a796c-b234-4aee-b4a0-a99e1f1fe98c",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "Rolluiken open",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "StartText": "Ingeschakeld"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "StopText": "Uitgeschakeld"
+                        },
+                        {
+                            "IconCode": "triple-dot"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "StartActive": "False"
+                        },
+                        {
+                            "AllStarted": "False"
+                        },
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "StartActive": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "AllStarted": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "1881afef-b2e7-4215-906d-09e5b4aad302",
+                    "Identifier": "RINCON_F0F6C151A9D001400",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "Move",
+                    "Technology": "sonos",
+                    "Type": "audiocontrol",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "Favourite14": "VRT Radio 2 Antwerpen"
+                        },
+                        {
+                            "Favourite49": ""
+                        },
+                        {
+                            "Favourite26": ""
+                        },
+                        {
+                            "Favourite61": ""
+                        },
+                        {
+                            "Favourite03": "Lounge (Bar & Café)"
+                        },
+                        {
+                            "Favourite38": ""
+                        },
+                        {
+                            "Favourite50": ""
+                        },
+                        {
+                            "Favourite15": "VRT Studio Brussel"
+                        },
+                        {
+                            "Favourite27": ""
+                        },
+                        {
+                            "Favourite62": ""
+                        },
+                        {
+                            "Favourite04": "Lounge-Radio.com"
+                        },
+                        {
+                            "Favourite39": ""
+                        },
+                        {
+                            "Favourite51": ""
+                        },
+                        {
+                            "Favourite16": ""
+                        },
+                        {
+                            "Favourite28": ""
+                        },
+                        {
+                            "Favourite63": ""
+                        },
+                        {
+                            "Favourite40": ""
+                        },
+                        {
+                            "Favourite05": "Music for a Workday"
+                        },
+                        {
+                            "GroupId": "RINCON_48A6B8F148E601400:2448366438"
+                        },
+                        {
+                            "Favourite17": ""
+                        },
+                        {
+                            "Favourite52": ""
+                        },
+                        {
+                            "SoftwareVersion": "80.1-55240"
+                        },
+                        {
+                            "Favourite29": ""
+                        },
+                        {
+                            "Favourite64": ""
+                        },
+                        {
+                            "Favourite06": "Muziek Evi"
+                        },
+                        {
+                            "Favourite41": ""
+                        },
+                        {
+                            "Favourite53": ""
+                        },
+                        {
+                            "Favourite18": ""
+                        },
+                        {
+                            "Favourite30": ""
+                        },
+                        {
+                            "Favourite65": ""
+                        },
+                        {
+                            "GroupCoordinator": "false"
+                        },
+                        {
+                            "GroupName": "Woonkamer + 1"
+                        },
+                        {
+                            "Favourite07": "Q"
+                        },
+                        {
+                            "Favourite42": ""
+                        },
+                        {
+                            "Favourite19": ""
+                        },
+                        {
+                            "Favourite54": ""
+                        },
+                        {
+                            "Favourite31": ""
+                        },
+                        {
+                            "Favourite66": ""
+                        },
+                        {
+                            "Favourite08": "Q-Foute Radio"
+                        },
+                        {
+                            "Favourite43": ""
+                        },
+                        {
+                            "Favourite20": ""
+                        },
+                        {
+                            "Favourite55": ""
+                        },
+                        {
+                            "Favourite32": ""
+                        },
+                        {
+                            "Favourite67": ""
+                        },
+                        {
+                            "Favourite09": "Q-music"
+                        },
+                        {
+                            "Favourite44": ""
+                        },
+                        {
+                            "Favourite21": ""
+                        },
+                        {
+                            "Favourite56": ""
+                        },
+                        {
+                            "Favourite33": ""
+                        },
+                        {
+                            "Favourite68": ""
+                        },
+                        {
+                            "Favourite10": "Soul, Jazz and Blues"
+                        },
+                        {
+                            "Favourite45": ""
+                        },
+                        {
+                            "Favourite22": ""
+                        },
+                        {
+                            "Favourite57": ""
+                        },
+                        {
+                            "Favourite34": ""
+                        },
+                        {
+                            "Favourite69": ""
+                        },
+                        {
+                            "Favourite11": "Top Radio"
+                        },
+                        {
+                            "Favourite46": ""
+                        },
+                        {
+                            "Favourite23": ""
+                        },
+                        {
+                            "Favourite58": ""
+                        },
+                        {
+                            "Favourite00": "Burglar Alarm Horn Siren"
+                        },
+                        {
+                            "Favourite35": ""
+                        },
+                        {
+                            "ApiVersion": "1.41.2"
+                        },
+                        {
+                            "Favourite12": "VRT MNM"
+                        },
+                        {
+                            "Favourite47": ""
+                        },
+                        {
+                            "Favourite24": ""
+                        },
+                        {
+                            "Favourite59": ""
+                        },
+                        {
+                            "Favourite01": "Ibiza Lounge Music | Deep House & Summer Chillout Vibes 2021"
+                        },
+                        {
+                            "Favourite36": ""
+                        },
+                        {
+                            "Favourite13": "VRT Radio 1"
+                        },
+                        {
+                            "Favourite48": ""
+                        },
+                        {
+                            "Favourite60": ""
+                        },
+                        {
+                            "Favourite25": ""
+                        },
+                        {
+                            "Favourite02": "Jazz Lounge Bar Playlist"
+                        },
+                        {
+                            "Favourite37": ""
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "39ba271f-8beb-4e26-b8c7-3c09d4b3c9d3",
+                    "Identifier": "c27b7c13-3989-4138-947f-f1a800f55382",
+                    "Model": "motorcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "rolluikbediening rens",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00041868"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        },
+                        {
+                            "LongPressTime02": "400"
+                        },
+                        {
+                            "ButtonMode02": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "b32e5c82-b660-4f67-8154-ec8992d17489",
+                    "Identifier": "91f9f3b2-3205-4fb2-9a6e-53477157c40a",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Rolluiken sluiten (Zonder Masterbed)",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "b598f393-f0c8-483d-b7c5-764c362d21ce",
+                    "Identifier": "487fdb8d-f8b8-4df6-92a1-524bfe7e79ce",
+                    "Model": "flag",
+                    "Online": "True",
+                    "Name": "Auto uitschakelen spots WC",
+                    "Technology": "nikohomecontrol",
+                    "Type": "virtual",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "87f31837-bf54-4ee5-bc2a-18052994f064",
+                    "Identifier": "8c3539cf-0de4-4ab7-ba2f-4189e6eba4e9",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "Rolluik slaapkamer midden",
+                    "Technology": "easywave",
+                    "Type": "smartmotor",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00041aa5"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "OpenRunTime": "20"
+                        },
+                        {
+                            "CloseRunTime": "20"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "3a96c318-d28f-4be0-9bc6-3b43e205b53d",
+                    "Identifier": "a0456558-5164-4470-a0e7-327ccca54a02",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "Rolluik living",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "shutter2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "LastDirection": "Close"
+                        },
+                        {
+                            "Position": "44"
+                        },
+                        {
+                            "Moving": "False"
+                        },
+                        {
+                            "Action": "Stop"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "LastDirection": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Choice(Open,Close)"
+                            }
+                        },
+                        {
+                            "Position": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        },
+                        {
+                            "Moving": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Action": {
+                                "HasStatus": "false",
+                                "CanControl": "true",
+                                "Description": "Choice(Open,Close,Stop)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "b4bd5c80-064c-479c-be7c-e022374f2ff6",
+                    "Identifier": "297c31c3-ea25-4fc9-b55a-f4585e81452d",
+                    "Model": "switched-generic",
+                    "Online": "True",
+                    "Name": "Rolluiken auto uit",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "standby"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "9db7d5cf-f58c-4a85-a664-52ed2d35de79",
+                    "Identifier": "aa16edfe-ec9d-4eaf-9f4f-138da4e2f258",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "master bedroom",
+                    "Technology": "easywave",
+                    "Type": "smartrelay",
+                    "Traits": [
+                        {
+                            "Channel": "1"
+                        },
+                        {
+                            "MacAddress": "00021653"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "a41ca239-8fe2-418b-b79e-0432cc0e8bc4",
+                    "Identifier": "150c8684-b442-4f11-bca1-03fc41c0ad63",
+                    "Model": "motorcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "rolluikbediening living",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "000421db"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        },
+                        {
+                            "LongPressTime02": "400"
+                        },
+                        {
+                            "ButtonMode02": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "f99f1378-9c5b-40ca-9e04-9868b2aac869",
+                    "Identifier": "radio",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "easywavesharp radio",
+                    "Technology": "easywavesharp",
+                    "Type": "radio",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "2127fe05-1ff6-4c19-9492-55b65f1e1fae",
+                    "Identifier": "a302bc14-5c41-4ae6-9bc3-1b4d1d723e64",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "eetkamer",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "dimmable-lamp"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Aligned": "True"
+                        },
+                        {
+                            "Status": "On"
+                        },
+                        {
+                            "Brightness": "73"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Aligned": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        },
+                        {
+                            "Brightness": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Range(0.00,100.00,1.00)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "0ca0309c-46f0-4d2d-bfae-17798e064aae",
+                    "Identifier": "gatewayfw",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "gatewayfw",
+                    "Technology": "firmware",
+                    "Type": "gatewayfw",
+                    "Traits": [
+                        {
+                            "HubType": "SMARTBOX"
+                        }
+                    ],
+                    "Parameters": [],
+                    "Properties": [
+                        {
+                            "ErrorCode": ""
+                        },
+                        {
+                            "UpgradeStatus": "Idle"
+                        },
+                        {
+                            "CurrentFWInfo": "2.20.2.613 | 2024.2-20240606113318"
+                        },
+                        {
+                            "AvailableFWInfo": ""
+                        },
+                        {
+                            "RemoteAvailableFWInfo": ""
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "ErrorCode": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Text"
+                            }
+                        },
+                        {
+                            "UpgradeStatus": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(Idle,RemoteVersionCheck,RemoteVersionVerify,DownloadImage,VerifyImage,WaitForConfirmation,UserConfirmed,Installing,InstallationCompleted,Reboot,WaitForUpload,UpgradingSubsystems,FallBack,FellBack)"
+                            }
+                        },
+                        {
+                            "CurrentFWInfo": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Text"
+                            }
+                        },
+                        {
+                            "AvailableFWInfo": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Text"
+                            }
+                        },
+                        {
+                            "RemoteAvailableFWInfo": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Text"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "6d111784-5521-4a98-8637-9c21a4e8897a",
+                    "Identifier": "a578f298-5fcc-43a8-b041-f9ac1246b8e4",
+                    "Model": "rolldownshutter",
+                    "Online": "True",
+                    "Name": "Rolluik living",
+                    "Technology": "easywave",
+                    "Type": "smartmotor",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "000421db"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "OpenRunTime": "15"
+                        },
+                        {
+                            "CloseRunTime": "15"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "670f2aa3-7c52-42d1-9cac-5cd7c8541ced",
+                    "Identifier": "05da0955-415e-45a6-a8d8-729884a1f747",
+                    "Model": "light",
+                    "Online": "True",
+                    "Name": "gang",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "lamp2"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "51cf56cf-4ac6-4ac0-a7db-394bb29c1a8c",
+                    "Identifier": "54907a6a-37b0-42cf-ab28-95f65f86f97b",
+                    "Model": "alarms",
+                    "Online": "True",
+                    "Name": "Paniekactie 1",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "panic"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "6dbf7696-335f-4652-8eb4-f5f4fff3a904",
+                    "Identifier": "62fecb1b-9dc5-479f-8356-d51b562adac8",
+                    "Model": "timeschedule",
+                    "Online": "True",
+                    "Name": "Tijdschema rolluiken verdieping s'morgens weekend",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [],
+                    "Properties": [
+                        {
+                            "Active": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Active": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "bcb3ed0f-1ffb-4ab5-a01c-683535ae0190",
+                    "Identifier": "67556223-a918-4597-9c04-a9dbc3f9b668",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Voorwaarde spots WC",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "170f32ff-9704-4cca-a8c3-913eda35b74d",
+                    "Identifier": "3ef7634b-2730-489a-916f-600909d0e95b",
+                    "Model": "motorcontrollerfeedback",
+                    "Online": "True",
+                    "Name": "Rolluikbediening slaapkamer midden",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "00041aa5"
+                        },
+                        {
+                            "ProductId": "551-72301"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "400"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "LongPress"
+                        },
+                        {
+                            "LongPressTime02": "400"
+                        },
+                        {
+                            "ButtonMode02": "LongPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "d9f3d0fa-5bda-48f3-8818-219048951105",
+                    "Identifier": "b3662fdc-a803-4e1f-b5fe-43a2b37ece77",
+                    "Model": "extensionbuttonx1",
+                    "Online": "True",
+                    "Name": "Knop trap",
+                    "Technology": "easywave",
+                    "Type": "smartextensionpanel",
+                    "Traits": [
+                        {
+                            "Channel": "1"
+                        },
+                        {
+                            "MacAddress": "000219ac"
+                        },
+                        {
+                            "ProductId": "551-72102"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "9c82c388-d1a3-4257-9698-be1d19c2caa7",
+                    "Identifier": "f4003a59-6e23-4fb4-bd4b-91584d77a966",
+                    "Model": "extensionbuttonx1",
+                    "Online": "True",
+                    "Name": "Knop Thuis_Links",
+                    "Technology": "easywave",
+                    "Type": "smartextensionpanel",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00031e52"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "f39dfe4c-bcb1-4d71-87c2-c817c3dba6ad",
+                    "Identifier": "853ea17f-abda-4605-91d4-da992364580e",
+                    "Model": "alloff",
+                    "Online": "True",
+                    "Name": "Gaan slapen",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "standby"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "AllOffActive": "False"
+                        },
+                        {
+                            "AllStarted": "False"
+                        },
+                        {
+                            "BasicState": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "AllOffActive": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "AllStarted": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "c1ceb029-cb44-4ddc-b3a1-b5009e6a1468",
+                    "Identifier": "energy_home",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "energyhome",
+                    "Technology": "nikohomecontrol",
+                    "Type": "energyhome",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "PeakEstimations": "20"
+                        },
+                        {
+                            "PeakPercentile": "90"
+                        },
+                        {
+                            "PeakModeOptimizedPrediction": "False"
+                        },
+                        {
+                            "PeakMode": "Direct"
+                        },
+                        {
+                            "PeakAggregation": "Maximum"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "WaterVolume": ""
+                        },
+                        {
+                            "ElectricalPowerFromGrid": ""
+                        },
+                        {
+                            "ElectricalPeakPowerToGrid": ""
+                        },
+                        {
+                            "ElectricalEnergyFromGrid": ""
+                        },
+                        {
+                            "ElectricalEnergyToGridCost": ""
+                        },
+                        {
+                            "ElectricalEnergyToGrid": ""
+                        },
+                        {
+                            "ElectricalPeakPowerFromGrid": ""
+                        },
+                        {
+                            "ElectricalEnergyProduction": ""
+                        },
+                        {
+                            "ElectricalPowerToGrid": ""
+                        },
+                        {
+                            "ElectricalEnergyFromGridCost": ""
+                        },
+                        {
+                            "ReportInstantUsage": ""
+                        },
+                        {
+                            "GasCost": ""
+                        },
+                        {
+                            "ElectricalEnergyConsumption": ""
+                        },
+                        {
+                            "GasVolume": ""
+                        },
+                        {
+                            "ElectricalMonthlyPeakPowerFromGrid": "4707.000"
+                        },
+                        {
+                            "ElectricalEnergySelfConsumption": ""
+                        },
+                        {
+                            "WaterCost": ""
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "WaterVolume": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.0000,999999.9990,0.0001)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerFromGrid": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalPeakPowerToGrid": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyFromGrid": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyToGridCost": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00000,999999999.00000,0.00001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyToGrid": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalPeakPowerFromGrid": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyProduction": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalPowerToGrid": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyFromGridCost": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00000,999999999.00000,0.00001)"
+                            }
+                        },
+                        {
+                            "ReportInstantUsage": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "GasCost": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00000,999999999.00000,0.00001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergyConsumption": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "GasVolume": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.0000,999999.9990,0.0001)"
+                            }
+                        },
+                        {
+                            "ElectricalMonthlyPeakPowerFromGrid": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "ElectricalEnergySelfConsumption": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999999.000,0.001)"
+                            }
+                        },
+                        {
+                            "WaterCost": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.00000,999999999.00000,0.00001)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "f7112d82-b96e-4b77-8be9-1d72bd27b629",
+                    "Identifier": "79f4eb29-9755-4fbf-a338-1163c1c7e2f0",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Rolluiken verdieping openen weekend",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "79f54f1f-0507-4086-b085-de2bb660ad8f",
+                    "Identifier": "14ca81ce-1fb7-4cb6-b6e0-13bf9f714b83",
+                    "Model": "switched-generic",
+                    "Online": "True",
+                    "Name": "bediening Inkomhal Ring",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "IconCode": "standby"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "Off"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "3af87819-d24d-45bd-97c5-df26ef945f36",
+                    "Identifier": "01630093-3152-42dc-aac9-298fe87ca180",
+                    "Model": "extensionbuttonx1",
+                    "Online": "True",
+                    "Name": "Knop Thuis_Rechts",
+                    "Technology": "easywave",
+                    "Type": "smartextensionpanel",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00032ade"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "8f543cf3-a78e-45e4-8638-4edd9c15fc6b",
+                    "Identifier": "7980ec1c-1241-44bd-8f80-8ae52a228250",
+                    "Model": "pushbuttonx4",
+                    "Online": "False",
+                    "Name": "4 toets living",
+                    "Technology": "easywave",
+                    "Type": "panel",
+                    "Traits": [
+                        {
+                            "MacAddress": "0018f1e8"
+                        },
+                        {
+                            "ProductId": "410-00002"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime02": "1000"
+                        },
+                        {
+                            "ButtonMode04": "LongPress"
+                        },
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "ButtonMode03": "LongPress"
+                        },
+                        {
+                            "ButtonMode02": "ShortPress"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "LongPressTime04": "400"
+                        },
+                        {
+                            "LongPressTime03": "400"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "9a03d052-ce68-47fb-bfa1-03dda3d41058",
+                    "Identifier": "63fff4f0-c84b-4767-b2ca-85de0fc5d7b8",
+                    "Model": "pushbuttonx1feedback",
+                    "Online": "True",
+                    "Name": "Knop badkamer",
+                    "Technology": "easywave",
+                    "Type": "smartpanel",
+                    "Traits": [
+                        {
+                            "MacAddress": "0001141e"
+                        },
+                        {
+                            "ProductId": "551-72101"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LongPressTime01": "1000"
+                        },
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "ButtonMode01": "ShortPress"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "6a9059f1-279f-42b2-9fcd-783e6ed3d19c",
+                    "Identifier": "19632e36-5b4f-4b1f-bb38-b5635539ed19",
+                    "Model": "dimmer",
+                    "Online": "True",
+                    "Name": "keuken",
+                    "Technology": "easywave",
+                    "Type": "smartdimmer",
+                    "Traits": [
+                        {
+                            "Channel": "0"
+                        },
+                        {
+                            "MacAddress": "00032d6b"
+                        },
+                        {
+                            "ProductId": "551-72201"
+                        }
+                    ],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "Memory": "true"
+                        }
+                    ],
+                    "Properties": [],
+                    "PropertyDefinitions": []
+                },
+                {
+                    "Uuid": "843e1b93-0f2b-463d-b9c8-9b6b846eeeea",
+                    "Identifier": "7FLO2123084108",
+                    "Model": "nhc",
+                    "Online": "True",
+                    "Name": "gasmeter",
+                    "Technology": "p1",
+                    "Type": "gasmeter",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "Segment": "Central"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "GasVolume": ""
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "GasVolume": {
+                                "HasStatus": "false",
+                                "CanControl": "false",
+                                "Description": "Range(0.000,999999.999,0.001)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "f0990bb3-c183-4859-9e22-4571c281465d",
+                    "Identifier": "a597c920-9c50-421d-bc9d-25e4fb0ebdf6",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Rolluiken gelijkvloers openen weekend",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "0158d079-6aad-489e-9a6e-1adbd3b1b6cb",
+                    "Identifier": "37344260-7fc3-4858-9e72-f2814760bec5",
+                    "Model": "generic",
+                    "Online": "True",
+                    "Name": "Bediening ring inkomhal",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "StartText": "Ingeschakeld"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        },
+                        {
+                            "StopText": "Uitgeschakeld"
+                        },
+                        {
+                            "IconCode": "triple-dot"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "StartActive": "False"
+                        },
+                        {
+                            "AllStarted": "True"
+                        },
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "StartActive": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "AllStarted": {
+                                "HasStatus": "true",
+                                "CanControl": "false",
+                                "Description": "Boolean"
+                            }
+                        },
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "34418605-edd8-4478-9cdd-ad99fa635d27",
+                    "Identifier": "8833ec0d-9638-408b-9e74-95bb87e8ad52",
+                    "Model": "condition",
+                    "Online": "True",
+                    "Name": "Voorwaarde WC 2",
+                    "Technology": "nikohomecontrol",
+                    "Type": "action",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "BasicState": "On"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "BasicState": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Choice(On,Off,Triggered)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Uuid": "6f0c10a7-c957-4f1c-a99d-2a5c0a743bdf",
+                    "Identifier": "f70ff235-ddef-4832-8654-419651c87536",
+                    "Model": "flag",
+                    "Online": "True",
+                    "Name": "AC-Mode Masterbedroom (auto sluiten UIT)",
+                    "Technology": "nikohomecontrol",
+                    "Type": "virtual",
+                    "Traits": [],
+                    "Parameters": [
+                        {
+                            "LocationName": "Thuis"
+                        },
+                        {
+                            "LocationId": "674631d1-8c0b-4a88-a7d6-f42cc454de9e"
+                        },
+                        {
+                            "LocationIcon": "general"
+                        }
+                    ],
+                    "Properties": [
+                        {
+                            "Status": "False"
+                        }
+                    ],
+                    "PropertyDefinitions": [
+                        {
+                            "Status": {
+                                "HasStatus": "true",
+                                "CanControl": "true",
+                                "Description": "Boolean"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Method": "devices.list"
+}

@@ -1,0 +1,13 @@
+{
+    "Method": "devices.control",
+    "Params":[{
+        "Devices":[{
+            "Properties":[{
+		"Brightness": "50"
+	     },{
+                "Status": "On"
+            }],
+            "Uuid": "2127fe05-1ff6-4c19-9492-55b65f1e1fae"
+        }]
+    }]
+}
