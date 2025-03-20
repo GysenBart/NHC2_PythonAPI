@@ -4,7 +4,7 @@ import ssl
 
 class MqttUtil:
 
-    def __init__(self, ip: str, port: int, username: str, password: str, ca: str, ):
+    def __init__(self, ip: str, port: int, username: str, password: str, ca: str, topic: str = "#"):
         self.client = mqtt.Client()
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
@@ -17,7 +17,7 @@ class MqttUtil:
         self.password = password
         self.ca = ca
 
-        self.topic_to_listen = "#"
+        self.topic_to_listen = topic #"#"
         self.running = False
         self.subscribed = False
         self.received_messages = []
